@@ -1,0 +1,21 @@
+---
+
+- name: Copy the on-site mirror repo file to /etc/yum.repos.d
+  template: 
+    src: "{{ repo_file }}.j2"
+    dest: "/etc/yum.repos.d/{{ repo_file }}"
+    owner: root
+    group: root
+    mode: 0644
+  environment:
+    http_proxy: ""
+    https_proxy: ""
+    no_proxy: ""
+
+- name: Update all Packages
+  yum:
+    name: '*'
+    state: latest
+    disable_gpg_check: "{{ disable_gpg_check }}"
+    update_cache: "{{ update_cache }}"
+  when: updt_all_pkgs

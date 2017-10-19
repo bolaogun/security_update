@@ -1,0 +1,16 @@
+---
+
+- name: Schedule Security Updates
+  hosts: myhosts
+  gather_facts: true
+  tags: security_updates
+  become: yes
+  become_method: sudo
+  vars:
+    - updateOption: security
+    - emailTo: bola.ogunlana@hmrc.gsi.gov.uk
+    - connectTo: mailserver.com
+
+  roles:
+    - role: schd_sec_updts
+ 

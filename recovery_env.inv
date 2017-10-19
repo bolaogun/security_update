@@ -1,0 +1,13 @@
+
+localhost
+
+[myhosts]
+R001CDGSEV00401 ansible_host=10.176.74.8 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00403 ansible_host=10.176.74.10 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00404 ansible_host=10.176.74.11 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00405 ansible_host=10.176.74.5 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00406 ansible_host=10.176.74.13 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00407 ansible_host=10.176.74.14 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00408 ansible_host=10.176.74.4 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00409 ansible_host=10.176.74.12 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem
+R001CDGSEV00410 ansible_host=10.176.74.6 ansible_ssh_private_key_file=/home/ec2-user/.ssh/almservers.pem

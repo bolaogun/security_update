@@ -1,0 +1,5 @@
+---
+# file: site.yml
+- include: upd_cdgrepo.yml
+- include: sec_update.yml
+#

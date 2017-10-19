@@ -1,0 +1,7 @@
+---
+
+repo_base_url: "http://mirror.sysman.uk.aws.service.hmrc.gov.uk/rhel/$releasever"
+repo_file: cdg_mirror.repo
+updt_all_pkgs: false
+update_cache: yes
+disable_gpg_check: no

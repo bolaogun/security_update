@@ -1,0 +1,6 @@
+---
+
+updateOption: security
+emailFrom: "admin@{{ ansible_hostname }}"
+emailTo: admin@example.com
+connectTo: mail.example.com

@@ -1,0 +1,18 @@
+---
+
+- name: Update repo file for the cdg_repo mirror
+  hosts: myhosts
+  gather_facts: true
+  tags: cdgrepo_upd
+  become: yes
+  become_method: sudo
+  vars:
+    - repo_base_url: "http://mirror.sysman.uk.aws.service.hmrc.gov.uk/rhel/$releasever"
+    - repo_file: cdg_mirror.repo
+    - update_cache: yes
+    - updt_all_pkgs: true
+    - disable_gpg_check: yes
+
+  roles:
+    - role: upd_cdgrepo 
+ 
