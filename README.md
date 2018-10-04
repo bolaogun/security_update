@@ -47,7 +47,6 @@ A brief description of each encountered variable is given below:
 | update_cache | Whether to update the cache as part of the (possible) yum update (yes/no)
 | updt_all_pkgs | Whether to update all packages during the "play" (true/false)
 | disable_gpg_check | If gpg_checking should be enabled or not (yes/no)
-| 
 | updateOption | The kind of yum update that should be scheduled (use **security** to schedule security updates ONLY)
 | emailTo | An email to notify during the scheduled updates
 | connectTo | A mailserver to be used during mailing activities 
